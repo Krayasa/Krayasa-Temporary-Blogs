@@ -26,7 +26,7 @@ services:
         - ENVIRONMENT=local
     command: "runserver"
     ports:
-      - "8082:8082"
+      - "8084:8084"
     volumes:
       - "./src:/home/app/web"
       - "./src/media:/home/app/media"
